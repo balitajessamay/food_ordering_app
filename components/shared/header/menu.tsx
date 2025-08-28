@@ -34,7 +34,9 @@ const Menu = () => {
           </SheetTrigger>
           <SheetContent className="flex flex-col items-start p-2">
             <SheetHeader>
-              <SheetTitle>Navigation Menu</SheetTitle>
+              <SheetTitle className="text-(--accent-color)">
+                Navigation Menu
+              </SheetTitle>
             </SheetHeader>
             <ThemeModeToggle />
             <Button asChild variant="ghost">

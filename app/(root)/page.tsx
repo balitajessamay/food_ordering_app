@@ -4,7 +4,7 @@ import sampleData from "@/db/sample-data";
 const HomePage = () => {
   return (
     <>
-      <CafeMenuList data={sampleData.menus} title="Our Menu" />
+      <CafeMenuList data={sampleData.menus} title="Best Sellers" limit={4} />
     </>
   );
 };
