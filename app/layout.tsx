@@ -1,17 +1,7 @@
 import type { Metadata } from "next";
-import { Jaro, Jura  } from "next/font/google";
-import "./globals.css";
+import "@/assets/styles/globals.css";
+import { juraFont } from "@/assets/fonts/fonts";
 import Navbar from "@/components/Navbar";
-
-export const jaroFont = Jaro({
-  variable: "--font-jaro",
-  subsets: ["latin"],
-});
-
-export const juraFont = Jura({
-  variable: "--font-jura",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: "Sandwiriffic",
@@ -25,10 +15,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${juraFont.className} antialiased`}
-      >
-        <Navbar />
+      <body className={`${juraFont.className} antialiased`}>
+        {/* <Navbar /> */}
         <main>{children}</main>
       </body>
     </html>

@@ -1,16 +1,13 @@
-import Hero from "@/components/Hero"
-import MenuPage from "./menu/page"
+// import Hero from "@/components/Hero";
+// import MenuPage from "./menu/page";
 
-
-const Home = () => {
+const HomePage = () => {
   return (
     <>
-      <Hero />
-      <MenuPage />
+      {/* <Hero />
+      <MenuPage /> */}
     </>
-  )
-}
+  );
+};
 
-export default Home
-
-   
+export default HomePage;
