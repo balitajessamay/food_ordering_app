@@ -1,0 +1,55 @@
+const sampleData = {
+  menus: [
+    {
+      name: "Egg Scramble Sandwich",
+      slug: "egg-scramble-sandwich",
+      category: "Sandwich",
+      description: "A delicious egg scramble sandwich with fresh ingredients.",
+      image: "/images/sample-menus/m1.png",
+      price: "120",
+      rating: "4.5",
+      numReviews: 10,
+      availability: true,
+      isFeatured: true,
+    },
+    {
+      name: "Sunny Side Egg with Spinach Toasted Sandwich",
+      slug: "sunny-side-egg-with-spinach-toasted-sandwich",
+      category: "Sandwich",
+      description: "A delicious sunny side egg with spinach toasted sandwich.",
+      image: "/images/sample-menus/m2.png",
+      price: "128",
+      rating: "4.5",
+      numReviews: 10,
+      availability: true,
+      isFeatured: true,
+    },
+    {
+      name: "Berries and Kiwi Yogurt Drink",
+      slug: "berries-and-kiwi-yogurt-drink",
+      category: "Drinks",
+      description: "A refreshing drink made with berries and kiwi.",
+      image: "/images/sample-menus/m3.png",
+      price: "240",
+      rating: "4.5",
+      numReviews: 10,
+      availability: true,
+      isFeatured: true,
+    },
+    {
+      name: "Avocado Cucumber with Cottage Cheese Toasted Sandwich",
+      slug: "avocado-cucumber-with-cottage-cheese-toasted-sandwich",
+      category: "Sandwich",
+      description:
+        "A delicious avocado cucumber with cottage cheese toasted sandwich.",
+      image: "/images/sample-menus/m4.png",
+      price: "120",
+      rating: "4.5",
+      numReviews: 10,
+      availability: true,
+      isFeatured: true,
+    },
+  ],
+};
+
+export default sampleData;
