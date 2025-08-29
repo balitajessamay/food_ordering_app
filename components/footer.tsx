@@ -3,7 +3,7 @@ import { APP_NAME } from "@/lib/constants";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
-    <footer className="w-full border-t">
+    <footer className="w-full border-t bg-(--accent-color) text-(--foreground-accent) font-semibold">
       <div className="p-5 flex-center bottom-0">
         &copy; {currentYear} {APP_NAME}. All rights reserved.
       </div>

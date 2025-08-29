@@ -24,7 +24,7 @@
   }
 
   .h2-bold {
-    @apply font-bold text-2xl lg:text-3xl;
+    @apply font-extrabold text-2xl lg:text-3xl;
   }
 
   .h3-bold {
@@ -124,7 +124,7 @@
 .dark {
   --background: #1e1e1e;
   --foreground: oklch(0.984 0.003 247.858);
-  --card: oklch(0.208 0.042 265.755);
+  --card: oklch(0.984 0.003 247.858);
   --card-foreground: oklch(0.984 0.003 247.858);
   --popover: #1e1e1e;
   --popover-foreground: oklch(0.984 0.003 247.858);
@@ -137,7 +137,7 @@
   --accent: oklch(0.279 0.041 260.031);
   --accent-foreground: oklch(0.984 0.003 247.858);
   --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 10%);
+  --border: #000000;
   --input: oklch(1 0 0 / 15%);
   --ring: oklch(0.551 0.027 264.364);
   --chart-1: oklch(0.488 0.243 264.376);
