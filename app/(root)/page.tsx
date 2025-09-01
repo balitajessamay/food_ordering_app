@@ -1,10 +1,12 @@
 import CafeMenuList from "@/components/shared/cafe-menu/cafe-menu-list";
-import sampleData from "@/db/sample-data";
+import { getLatestMenuItems } from "@/lib/actions/cafemenu.actions";
 
-const HomePage = () => {
+const HomePage = async () => {
+  const latestMenuItems = await getLatestMenuItems();
+
   return (
     <>
-      <CafeMenuList data={sampleData.menus} title="Best Sellers" limit={4} />
+      <CafeMenuList data={latestMenuItems} title="Best Sellers" limit={3} />
     </>
   );
 };

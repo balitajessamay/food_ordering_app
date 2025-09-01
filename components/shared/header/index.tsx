@@ -14,10 +14,11 @@ const Header = () => {
           <Link href="/" className="flex-start">
             <Image
               src="/vectors/logo.svg"
-              alt={`${APP_NAME} logo`}
-              height={160}
               width={160}
+              height={160}
+              alt={`${APP_NAME} logo`}
               priority={true}
+              className="w-auto h-auto"
             />
           </Link>
         </div>

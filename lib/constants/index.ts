@@ -4,3 +4,6 @@ export const APP_DESCRIPTION =
   "A modern food ordering app build with next.js";
 export const SERVER_URL =
   process.env.NEXT_PUBLIC_SERVER_URL || "http://localhost:3000";
+export const LATEST_MENU_ITEMS_LIMIT = Number(
+  process.env.LATEST_MENU_ITEMS_LIMIT || 3
+);

@@ -24,7 +24,7 @@ const CafeMenuCard = ({ cafeMenu }: { cafeMenu: any }) => {
         </Link>
         <div className="flex-between gap-4">
           <p>{cafeMenu.rating} Stars</p>
-          {cafeMenu.availability ? (
+          {cafeMenu.isAvailable ? (
             <p className="font-bold text-(--accent-color)">P{floatPrice}</p>
           ) : (
             <p className="text-destructive">Not Available</p>
