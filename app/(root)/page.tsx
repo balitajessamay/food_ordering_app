@@ -6,7 +6,7 @@ const HomePage = async () => {
 
   return (
     <>
-      <CafeMenuList data={latestMenuItems} title="Best Sellers" limit={3} />
+      <CafeMenuList data={latestMenuItems} title="Best Sellers" limit={4} />
     </>
   );
 };

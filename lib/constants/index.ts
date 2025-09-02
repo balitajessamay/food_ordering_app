@@ -5,5 +5,5 @@ export const APP_DESCRIPTION =
 export const SERVER_URL =
   process.env.NEXT_PUBLIC_SERVER_URL || "http://localhost:3000";
 export const LATEST_MENU_ITEMS_LIMIT = Number(
-  process.env.LATEST_MENU_ITEMS_LIMIT || 3
+  process.env.LATEST_MENU_ITEMS_LIMIT || 4
 );

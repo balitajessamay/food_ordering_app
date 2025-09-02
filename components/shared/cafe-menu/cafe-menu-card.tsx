@@ -1,8 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
+import { MenuItem } from "@/types";
 
-const CafeMenuCard = ({ cafeMenu }: { cafeMenu: any }) => {
+const CafeMenuCard = ({ cafeMenu }: { cafeMenu: MenuItem }) => {
   const floatPrice = Number(cafeMenu.price).toFixed(2);
 
   return (
